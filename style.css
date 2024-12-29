@@ -30,7 +30,7 @@ body {
 header {
     background: url('banner2.png') center/cover;
     background-repeat: no-repeat;
-    padding: 14.3rem 0;
+    padding: 13.3rem 0;
     position: relative;
     overflow: hidden;
     height: 4vh;
@@ -76,8 +76,8 @@ header::before {
 /* Welcome Section */
 .welcome-section {
     background: white;
-    padding: 2.5rem;
-    margin: -4rem auto 4rem;
+    padding: 1.2rem;
+    margin: -5rem auto 5rem;
     border-radius: 20px;
     box-shadow: var(--card-shadow);
     max-width: 1000px;
@@ -185,7 +185,7 @@ header::before {
 /* Auth Section */
 .auth-section {
     background: white;
-    padding: 3.5rem;
+    padding: 1rem;
     border-radius: 20px;
     box-shadow: var(--card-shadow);
     max-width: 500px;
@@ -224,9 +224,9 @@ header::before {
 
 .btn {
     width: 100%;
-    padding: 1rem;
+    padding: 0.6rem;
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
@@ -262,7 +262,7 @@ header::before {
 /* Contact Section */
 .contact-section {
     background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
-    padding: 5rem 0;
+    padding: 3rem 0;
     color: white;
     text-align: center;
     margin-top: 5rem;
@@ -277,7 +277,7 @@ header::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/api/placeholder/1920/400') center/cover;
+    background: url('yourimg') center/cover;
     opacity: 0.05;
 }
 
@@ -290,14 +290,13 @@ header::before {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 2.5rem;
     position: relative;
 }
 
 .social-links a {
     color: white;
-    font-size: 1.5rem;
     transition: var(--transition);
     width: 60px;
     height: 60px;
@@ -306,7 +305,6 @@ header::before {
     justify-content: center;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
 }
 
 .social-links a:hover {
