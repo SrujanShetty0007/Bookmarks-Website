@@ -46,7 +46,7 @@
      opacity: 0.1;
  }
 
- .logo{
+.logo{
     font-size: clamp(2rem, 8vw, 3.5rem);
     color: white;
     text-align: center;
@@ -68,7 +68,6 @@
         width: 100%;
     }
 }
-
  .container {
      max-width: 1400px;
      margin: 0 auto;
